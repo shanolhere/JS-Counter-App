@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  background-color: rgb(235, 161, 235);
+  padding: 40px 20px;
+  border-radius: 10px;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: 4rem;
+  margin: 1rem;
+}
+button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  margin: 0 10px;
+  cursor: pointer;
+}
